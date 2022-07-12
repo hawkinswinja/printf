@@ -1,10 +1,19 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef NICOBYN
+#define NICOBYN
 
-#include <unistd.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include <stdarg.h>
+#include <unistd.h>
+
+int _putchar(char c);
 int _printf(const char *format, ...);
+int print_number(int n);
+int dec_to_binary(int n);
+int _putstring(char *s);
+void _reverse(char *s);
+int rev_str(char *s);
+int rot13(char *point);
+int print_digit(int n);
+int _strlen(char *s);
+int no_struct(char c, int count, va_list argu);
 #endif
