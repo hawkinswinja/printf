@@ -1,13 +1,10 @@
-#ifndef NICOBYN
-#define NICOBYN
-
-#include <stdio.h>
-#include <stdarg.h>
-#include <unistd.h>
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 int print_string(char *);
 int _printf(const char *format, ...);
+/**
 int print_number(int n);
 int dec_to_binary(int n);
 int _putstring(char *s);
@@ -19,4 +16,5 @@ int _strlen(char *s);
 int no_struct(char c, int count, va_list argu);
 void cleanup(va_list args, buffer_t *output);
 int run_printf(const char *format, va_list args, buffer_t *output);
+*/
 #endif
