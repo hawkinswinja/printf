@@ -16,4 +16,6 @@ int rot13(char *point);
 int print_digit(int n);
 int _strlen(char *s);
 int no_struct(char c, int count, va_list argu);
+void cleanup(va_list args, buffer_t *output);
+int run_printf(const char *format, va_list args, buffer_t *output);
 #endif
