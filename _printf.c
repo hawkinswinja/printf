@@ -30,6 +30,12 @@ int _printf(const char *format, ...)
 				/*print the char from the va_arg*/
 				n += _putchar('%');
 				break;
+			case 'd':
+				n += print_decimal(va_arg(data, int));
+				break;
+			case 'i':
+				n += print_int(va_arg(data, int));
+				break;
 			default:
 				break;
 			}

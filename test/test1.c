@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-    int n = _printf("Hello %% %c %s", 'X', ".Man");
+    int n = _printf("%i", 887);
     printf("\nn = %d \n", n);
 
     return (0);
