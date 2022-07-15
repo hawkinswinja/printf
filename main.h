@@ -7,22 +7,8 @@ int _printf(const char *format, ...);
 int print_decimal(int value);
 int print_int(int value);
 long long converttodec(int number, int base);
-long long int power(int base, int x);
 int print_binary(int number);
 int print_unsigned(unsigned int value);
 int convert_octal(int number);
-// void print_binary(unsigned int n, unsigned int *printed);
-/**
-int print_number(int n);
-int dec_to_binary(int n);
-int _putstring(char *s);
-void _reverse(char *s);
-int rev_str(char *s);
-int rot13(char *point);
-int print_digit(int n);
-int _strlen(char *s);
-int no_struct(char c, int count, va_list argu);
-void cleanup(va_list args, buffer_t *output);
-int run_printf(const char *format, va_list args, buffer_t *output);
-*/
+
 #endif
