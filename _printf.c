@@ -36,6 +36,15 @@ int _printf(const char *format, ...)
 			case 'i':
 				n += print_int(va_arg(data, int));
 				break;
+			case 'b':
+				n += print_binary(va_arg(data, int));
+				break;
+			case 'u':
+				n += print_unsigned(va_arg(data, unsigned int));
+				break;
+			case 'o':
+				n += convert_octal(va_arg(data, int));
+				break;
 			default:
 				break;
 			}

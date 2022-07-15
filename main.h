@@ -6,6 +6,12 @@ int print_string(char *);
 int _printf(const char *format, ...);
 int print_decimal(int value);
 int print_int(int value);
+long long converttodec(int number, int base);
+long long int power(int base, int x);
+int print_binary(int number);
+int print_unsigned(unsigned int value);
+int convert_octal(int number);
+// void print_binary(unsigned int n, unsigned int *printed);
 /**
 int print_number(int n);
 int dec_to_binary(int n);
